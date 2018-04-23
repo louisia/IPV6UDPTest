@@ -20,13 +20,13 @@
 using namespace std;
 
 //服务器端开放的消息接收端口
-#define PORT_RECV 8000
+#define PORT_RECV 9100
 //服务器端开放的消息发送端口
-#define PORT_SEND 8001
+#define PORT_SEND 9101
 
 #define PORT_MIN 9000
 //网络节点的数目
-#define NODE_NUM 3
+#define NODE_NUM 2
 
 void runServer(char *serverIP) {
 	struct sockaddr_in6 server;
