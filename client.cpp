@@ -4,7 +4,7 @@
 #include <sys/socket.h>  
 #include <string.h>  
 #define REMOTEPORT 9000  
-#define REMOTEIP "2001:da8:270:2018:f816:3eff:fe1c:7c19"  
+#define REMOTEIP "2001:250:5032:e:20c:29ff:fe90:1efc"
 int main(int argc,char *argv[])  
 {  
     int mysocket,len;  
